@@ -1,6 +1,6 @@
 ﻿namespace Agente
 {
-    partial class Service1
+    partial class Agente
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.eventLog = new System.Diagnostics.EventLog();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog)).BeginInit();
+            // 
+            // Agente
+            // 
             this.ServiceName = "Service1";
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog)).EndInit();
+
         }
 
         #endregion
+
+        private System.Diagnostics.EventLog eventLog;
     }
 }
