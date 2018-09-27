@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("Agente")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Tutorial con todo lo que se necesita saber sobre cómo gestionar los servicios de windows usando c#")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Bitcubico Technology S.A.S.")]
 [assembly: AssemblyProduct("Agente")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © BitCubico 2018")]
+[assembly: AssemblyTrademark("BitCubico")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
